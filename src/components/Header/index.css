@@ -1,0 +1,78 @@
+
+@media screen and (min-width:576px){
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+.app-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.shopping-bag{
+    width: 24px;
+    height: 24px;
+}
+
+.icons-container{
+    width: 240px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-button{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.language-options{    
+    width: 100px;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.tabs-container{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    list-style-type: none;
+}
+.tab-item{
+    font-size: 24px;
+    font-weight: 750;
+}
+}
+
+@media screen and (max-width:577px){
+    .nav-container{
+        display: none;
+    }
+}
+
+.search-icon{
+    width:24px;
+    height: 24px;
+}
+.shopping-bag-icon{
+    width:34px;
+    height: 24px;
+}
+
+.website-logo{
+    font-size: 22px;
+    font-family: fantasy;
+}

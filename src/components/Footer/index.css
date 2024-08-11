@@ -1,0 +1,106 @@
+.footer-section{
+    width: 100vw;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.signin-input{
+    background-color: #ffffff;
+    width: 500px;
+    height:40px;
+    margin-right: 10px;
+    font-weight: 700;
+    border: 0px;
+    padding:5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.subscribe-button{
+width: 200px;
+height: 48px;
+font-size: 20px;
+font-weight: 500;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+color: #ffffff;
+margin-top: 30px;
+padding: 5px;
+}
+
+.footer-top-section{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+.footer-bottom-section{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.horizontal-line{
+    width: 90vw;
+    background-color: #bfbfbf;
+}
+@media screen and (min-width:577px) {
+    .separater-line{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer-top-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-bottom-section{
+        display: flex;
+        flex-direction: column;
+    } 
+    .signin-input{
+        width: 200px;
+    }
+    .subscribe-button{
+        width: 130px;
+    }
+    .separater-line{
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+.copy-write{
+    text-align: center;
+    font-size: 12px;
+}
+}
+.insta-linkedin-logos{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.frame{
+    width: 350px;
+}
+
+.copy-write{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width:576px) {
+    .frame{
+        width: 400px;
+        height: 40px;
+    }
+}

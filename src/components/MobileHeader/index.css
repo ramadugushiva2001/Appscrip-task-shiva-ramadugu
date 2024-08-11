@@ -1,0 +1,76 @@
+@media screen and (max-width:576px){
+.grey-strip{
+    background-color: #000000;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EB4C6B;   
+}
+.grey-scale-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.movile-header-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-button{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.menu-icon-container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+}
+
+.home-shop{
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+@media screen and (min-width:577px){
+    .movile-header-container{
+        display: none;
+    }
+    .home-shop{
+        display: none;
+    }
+}
+
+.grey-strip{
+    background-color: #000000;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EB4C6B;   
+}
+.grey-scale-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.website-logo{
+    font-size: 22px;
+    font-family: fantasy;
+}
+p{
+    margin-right: 5px;
+}
