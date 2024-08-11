@@ -64,3 +64,5 @@ class FiltersGroup extends Component {
 }
 
 export default FiltersGroup;
+
+
