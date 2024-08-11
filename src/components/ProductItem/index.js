@@ -9,7 +9,7 @@ console.log(rating.rate)
 
 return(
     <li className='product-item'>
-        <div>
+        <div className='product'>
         <img src={image} alt={title} className="product-image"/>
         <h1 className='product-name'>{title}</h1>
         <p className='product-description'>{description}</p>

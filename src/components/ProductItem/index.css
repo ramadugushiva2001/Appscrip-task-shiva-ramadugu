@@ -45,3 +45,7 @@ p{
     cursor: pointer;
     font-size: 18px;
 }
+.product{
+    display: flex;
+    flex-direction: column;
+}
